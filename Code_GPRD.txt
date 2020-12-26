@@ -1,0 +1,17 @@
+#!/bin/bash
+isvalid=true
+count=1
+while [ $isvalid ]
+do
+if [$($timestam)>($system.tim-6) ];
+then{
+
+DELETE https://api.mytest.localhost/cdn/{filepath} HTTP/1.1
+Authorization: {{token}}}
+
+if [ $count -eq 1000000 ];
+then
+break
+fi
+((count++))
+done
